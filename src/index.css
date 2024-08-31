@@ -176,6 +176,7 @@ a:focus {
 
 .d-block {
   display: block;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .w-100 {
@@ -260,7 +261,8 @@ img {
   vertical-align: middle;
 }
 
-* Media Queries for Mobile View */
+ Media Queries for Mobile View
+ 
 @media screen and (max-width: 600px) {
   html, body {
     background-color: #fff;
